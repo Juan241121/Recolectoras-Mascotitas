@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Características - Recolectoras Patitas</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #FF69B4;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h2 {
+            color: #FF69B4;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .features-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .card h3 {
+            color: #FF69B4;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+        .card p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #333;
+        }
+        footer {
+            background-color: #FF69B4;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recolectoras Patitas</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="features.html">Características</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Características del Producto</h2>
+            <div class="features-container">
+                <div class="card">
+                    <h3>Material resistente y duradero</h3>
+                    <p>Fabricado con materiales de alta calidad que aseguran la durabilidad del producto, perfecto para mascotas activas.</p>
+                </div>
+                <div class="card">
+                    <h3>Mango ergonómico</h3>
+                    <p>El mango está diseñado para que puedas manejarlo de manera cómoda y sencilla, reduciendo la fatiga durante el uso.</p>
+                </div>
+                <div class="card">
+                    <h3>Adaptable a cualquier mascota</h3>
+                    <p>Disponible en diferentes tamaños, ajustándose a las necesidades de mascotas pequeñas, medianas y grandes.</p>
+                </div>
+                <div class="card">
+                    <h3>Fácil de limpiar</h3>
+                    <p>Su diseño permite una fácil limpieza, lo que lo hace práctico y conveniente para el uso diario.</p>
+                </div>
+                <div class="card">
+                    <h3>Materiales ecológicos</h3>
+                    <p>Comprometidos con el medio ambiente, el producto está hecho de materiales reciclables, cuidando de tu mascota y del planeta.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Recolectoras Patitas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

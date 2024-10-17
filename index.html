@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recolectoras Patitas - Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #FF69B4;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 5px 10px;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: white;
+            color: #FF69B4;
+            border-radius: 5px;
+        }
+        .hero-section {
+            background-color: #FFB6C1;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .hero-section h2 {
+            color: #000000;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .hero-section p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .hero-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            background-color: #FF69B4;
+            color: white;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #e2559f;
+            transform: translateY(-5px);
+        }
+        .features-preview {
+            background-color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .features-preview h3 {
+            color: #FF69B4;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .features-grid {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .feature-card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            width: 250px;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .feature-card h4 {
+            color: #FF69B4;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #FF69B4;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Recolectoras Patitas</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="features.html">Características</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h2>La mejor solución para la limpieza de tus mascotas</h2>
+            <p>Recolectoras Patitas facilita la limpieza de los espacios de tus mascotas, manteniéndolos limpios y libres de desechos.</p>
+            <img src="https://th.bing.com/th/id/OIP.xbdFOetbOBtbgH5QV3b3OAHaHa?rs=1&pid=ImgDetMain" alt="Recolectoras Patitas" class="hero-image">
+            <a class="cta-button" href="https://wa.me/573009546313?text=Hola%2C%20estoy%20interesado%20en%20el%20producto%20Recolectoras%20Patitas." target="_blank">¡Contáctanos por WhatsApp!</a>
+        </section>
+        
+      <!-- Features Preview Section -->
+    <section class="features-preview">
+        <h3>¿Por qué elegir Recolectoras Patitas?</h3>
+        <div class="features-grid">
+            <div class="feature-card">
+                <h4>Innovación en cada detalle</h4>
+                <p>Nuestro diseño incorpora tecnología avanzada para garantizar una recolección eficiente y sin esfuerzo.</p>
+            </div>
+            <div class="feature-card">
+                <h4>Seguridad garantizada</h4>
+                <p>Certificados por expertos, garantizamos que el producto es seguro para ti y tus mascotas.</p>
+            </div>
+            <div class="feature-card">
+                <h4>Fácil almacenamiento</h4>
+                <p>Su diseño compacto permite guardarlo en cualquier lugar sin ocupar espacio innecesario.</p>
+            </div>            
+        </div>
+    </section>
+
+    </main>
+
+    <footer>
+        <p>© 2024 Recolectoras Patitas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

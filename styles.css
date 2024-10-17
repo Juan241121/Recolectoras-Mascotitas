@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffeef2;
+    color: #333;
+}
+
+header {
+    background-color: #ff4da6;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffeef2;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-section {
+    padding: 50px 0;
+    background-color: #ffccf2;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff4da6;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #ff4da6;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e0007a;
+}
+
+.features-list {
+    list-style: disc;
+    padding-left: 40px;
+    text-align: left;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #ff4da6;
+    color: white;
+    text-align: center;
+}
